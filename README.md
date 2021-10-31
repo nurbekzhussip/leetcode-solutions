@@ -1,4 +1,4 @@
 # leetcode-solutions
 
-LEETCODE PATTERNS
+LEETCODE PATTERNS<br/>
 Tasks from here https://seanprashad.com/leetcode-patterns/
