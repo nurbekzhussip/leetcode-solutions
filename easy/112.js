@@ -27,17 +27,17 @@ var hasPathSum = function (root, targetSum) {
 };
 
 //Solution 2
-var hasPathSum = function (root, targetSum) {
-  if (!root) {
-    return false;
-  }
-  targetSum -= root.val;
+// var hasPathSum = function (root, targetSum) {
+//   if (!root) {
+//     return false;
+//   }
+//   targetSum -= root.val;
 
-  if (!root.right && !root.left) {
-    return targetSum === 0;
-  } else {
-    return (
-      hasPathSum(root.left, targetSum) || hasPathSum(root.right, targetSum)
-    );
-  }
-};
+//   if (!root.right && !root.left) {
+//     return targetSum === 0;
+//   } else {
+//     return (
+//       hasPathSum(root.left, targetSum) || hasPathSum(root.right, targetSum)
+//     );
+//   }
+// };
